@@ -1,0 +1,24 @@
+<div class="container">
+    <h1>회원정보</h1>
+    <hr class="my-4">
+
+    <div>
+        {{id}}
+    </div>
+    <div>
+        {{firstname}}
+    </div>
+    <div>
+        {{lastname}}
+    </div>
+    <div>
+        {{email}}
+    </div> 
+    
+    <?= \jiny\html\ul($data, true); ?>
+
+    <div class="text-right">
+        <button class="btn btn-primary" id="btn-board-listlink">목록이동</button>
+        <button class="btn btn-primary" id="btn-board-list">목록출력</button>
+    </div>
+</div>  

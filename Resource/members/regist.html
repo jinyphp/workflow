@@ -1,0 +1,15 @@
+
+    <div class="container">
+        <h1>회원가입</h1>
+        <hr class="my-4">
+        
+        <?= \jiny\html\bootstrap\isAlertDanger($error_message); ?>
+
+        <form action="/regist/form" method="POST">
+            <input type="hidden" name="mode" value="newup">
+            <label>이메일 :</label><input type="text" name="data[email]">
+            <label>패스워드 :</label><input type="password" name="data[password]">
+            <button type="submit">로그인</button>
+        </form>
+
+    </div>

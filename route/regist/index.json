@@ -1,0 +1,12 @@
+{
+    "uri":"/regist",
+    "type":"page",
+    "auth":false,
+    "enable":true,
+
+    "controller":{
+        "name":"\\App\\Controllers\\Registration",
+        "method":"main"
+    },
+    "description":"메인root"
+}
