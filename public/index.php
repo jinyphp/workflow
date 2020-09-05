@@ -17,6 +17,7 @@ if (file_exists($autoload_path)) {
     // $boot->package("\Jiny\Members\Registration");
     // echo $boot->package("\Jiny\Members\Login");
 } else {
+    // 오류출력
     $msg = "오토로드 파일을 읽을 수 없어, 실행이 불가능 합니다.";
     $filename = "../resource/error.html";
     if (file_exists($filename)) {
